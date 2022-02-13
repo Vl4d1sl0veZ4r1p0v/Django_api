@@ -8,12 +8,13 @@ verify_ssl = true
 [packages]
 django = "~=4.0"
 django-environ = "~=0.8"
-black = "~=21.12b0"
 isort = "~=5.10"
 flake8 = "~=4.0"
+python-telegram-bot = "*"
+telegram = "*"
 
 [requires]
-python_version = "3.10"
+python_version = "3.8"
 
 [pipenv]
 allow_prereleases = true
